@@ -1,6 +1,6 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-import SnackBar from './SnackBar';
+import SnackBar from '../components/SnackBar';
 
 const wrapper = shallow(<SnackBar />);
 

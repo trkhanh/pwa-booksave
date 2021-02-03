@@ -1,6 +1,6 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-import SiteNav from './SiteNav';
+import SiteNav from '../components/SiteNav';
 
 const wrapper = shallow(<SiteNav />);
 

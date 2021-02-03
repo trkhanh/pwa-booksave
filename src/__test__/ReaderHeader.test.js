@@ -1,6 +1,6 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-import ReaderHeader from './ReaderHeader';
+import ReaderHeader from '../components/ReaderHeader';
 
 const wrapper = shallow(<ReaderHeader />);
 
