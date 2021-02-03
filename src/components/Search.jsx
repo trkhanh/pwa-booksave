@@ -6,7 +6,7 @@ import {
     SearchInput,
 } from './base/SearchBar';
 
-function Search({ value, handlechange }) {
+function Search({ value, handleChange }) {
     return <SearchBar>
         <SearchLabel htmlFor="search"> Search for books</SearchLabel>
         <SearchInput
